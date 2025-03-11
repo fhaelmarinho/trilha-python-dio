@@ -11,4 +11,3 @@ print("Oslo:", data)
 print("São Paulo:", data2)
 print("Nova Iorque:", data3)
 print("Tóquio:", data4)    
-
