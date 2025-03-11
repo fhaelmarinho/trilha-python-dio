@@ -26,7 +26,7 @@ numero_conta = 1  # Contador para gerar números de conta sequenciais
 def depositar(saldo, extrato):
     print("Depositar")
     valor = float(input("Informe o valor do depósito: "))
-    if valor <= 0:
+    if valor <= 0: 
         print("Operação não permitida! Informe um valor válido")
     else:
         saldo += valor
@@ -132,7 +132,7 @@ while True:
         listar_contas(contas)      
 
     elif opcao == "q" or opcao == "Q":
-        print("Saindo...")
+        print("Saindo da aplicação...")
         break                     
     else:
         print("Opção inválida!")     
