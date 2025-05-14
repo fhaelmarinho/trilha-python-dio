@@ -1,5 +1,3 @@
-#Desafio DIO: Criar um sistema bancário simples com classes e herança.
-
 from abc import ABC, abstractclassmethod, abstractproperty
 from datetime import datetime
 
